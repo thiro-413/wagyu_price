@@ -1,6 +1,6 @@
 //スムーススクロール
 $(function(){
-  $('a[href^="#"]').click(function(){
+  $('#page-top a').click(function(){
     var speed = 500;
     var href= $(this).attr("href");
     var target = $(href == "#" || href == "" ? 'html' : href);
